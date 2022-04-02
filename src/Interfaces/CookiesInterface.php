@@ -1,6 +1,6 @@
 <?php
 
-namespace Chocookies;
+namespace Chocookies\Interfaces;
 
 use Carbon\Carbon;
 use Psr\Http\Message\ResponseInterface;

@@ -2,9 +2,10 @@
 
 namespace Chocookies;
 
-use Psr\Http\Message\ServerRequestInterface;
-use Psr\Http\Message\ResponseInterface;
 use Carbon\Carbon;
+use Psr\Http\Message\ResponseInterface;
+use Chocookies\Interfaces\CookiesInterface;
+use Psr\Http\Message\ServerRequestInterface;
 
 class Cookies implements CookiesInterface
 {
