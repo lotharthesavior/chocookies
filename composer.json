@@ -1,0 +1,14 @@
+{
+    "name": "lotharthesavior/chocookies",
+    "description": "Simple package for Cookies management on Psr7 objects.",
+    "require": {
+        "nesbot/carbon": "^2.57",
+        "psr/http-message": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chocookies\\": "src/"
+        }
+    }
+}
