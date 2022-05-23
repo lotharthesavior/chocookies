@@ -1,6 +1,8 @@
 
 # Chocookie
 
+[![Tests](https://github.com/lotharthesavior/chocookies/actions/workflows/php.yml/badge.svg)](https://github.com/lotharthesavior/chocookies/actions/workflows/php.yml)
+
 Package for Cookie management through [Psr7](https://www.php-fig.org/psr/psr-7/) standards.
 
 ## Installation
