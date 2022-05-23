@@ -24,6 +24,13 @@ interface CookiesInterface
         ?Carbon $expireHour = null
     ): void;
 
+    /**
+     * Retrieve cookie by the key.
+     *
+     * @param ResponseInterface|ServerRequestInterface $serverObject
+     * @param string $key
+     * @return string|null
+     */
     public static function getCookie(ResponseInterface|ServerRequestInterface $serverObject, string $key): ?string;
 
     /**
